@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pat"
+version = "0.1.0"
+description = ""
+authors = ["fiorrr <57352295+fiorrr721@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+flask = "^2.2.2"
+requests = "^2.28.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
